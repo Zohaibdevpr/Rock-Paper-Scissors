@@ -139,7 +139,7 @@ img.now{
 width: 70px;
 aspect-ratio: 2;
 position: relative;
-animation:fade 1.5s linear infinite  ;
+animation:fade 1.5s linear infinite  ;    
 }
 @keyframes fade{
 from{

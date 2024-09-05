@@ -126,6 +126,6 @@ function playGame(Good)
                    <img src="src/${Good}.png">         <img src="src/${compMove}.png">
                    Computer`;
                   
-                                  
+                                       
               } 
         }

@@ -121,6 +121,12 @@ img.now{
       margin-top: 135px;
     }
 }
+@media (max-width:377) {
+  img{
+    margin: 0 -40px;
+  }
+  
+}
 
 .loader-container{
   width: 100%;

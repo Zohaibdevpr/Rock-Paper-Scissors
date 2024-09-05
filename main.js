@@ -1,3 +1,13 @@
+
+// when window reloads it will load the game 
+
+window.onload = function() {
+  setTimeout(function() {
+    document.querySelector('.loader-container').style.display = 'none';
+  }, 3500); 
+};
+
+
 let  score = JSON.parse(localStorage.getItem('score'))||
 {
   wins:0,
@@ -6,7 +16,7 @@ let  score = JSON.parse(localStorage.getItem('score'))||
 };
 
 
-
+  
 function updation(){
     document.querySelector('.js-score')
     .innerHTML = `wins:${score.wins},losses:${score.losses},ties:${score.ties}`; 

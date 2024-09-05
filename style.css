@@ -8,6 +8,7 @@ html, body{
   color:#ffffff; 
    width: 100%;
    height: 100%;
+   -webkit-highlight-color:transparent;
 }
 .container{
   display: flex;
@@ -123,7 +124,8 @@ img.now{
 }
 @media (max-width:377) {
   img{
-    margin: 0 -40px;
+    margin: 0 -30px;
+    padding: 30px;
   }
   
 }

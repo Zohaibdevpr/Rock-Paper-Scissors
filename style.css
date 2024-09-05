@@ -85,7 +85,7 @@ img.now{
 }
 @media (max-width:650px) {
   img{
-    margin: 0 -10px;
+    margin: 0 -40px;
   }
   .container{
     overflow: hidden;

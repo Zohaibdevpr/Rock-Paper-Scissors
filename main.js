@@ -72,11 +72,11 @@ function playGame(Good)
               const compMove = moveGame();
               let result = '';
                   if(compMove === 'Rock'){
-                    result = 'Tie.';
-                  }else if(compMove === 'Paper'){
-                    result = 'You lost ';
-                  }else if(compMove === 'Scissors'){
                     result = 'You won !';
+                  }else if(compMove === 'Paper'){
+                    result = 'Tie. ';
+                  }else if(compMove === 'Scissors'){
+                    result = 'You lost ';
                     }
                     if(result === 'You won !'){
                       score.wins += 1;
@@ -99,11 +99,11 @@ function playGame(Good)
                 const compMove = moveGame();
                 let result = '';
                     if(compMove === 'Rock'){
-                      result = 'Tie.';
-                    }else if(compMove === 'Paper'){
                       result = 'You lost ';
-                    }else if(compMove === 'Scissors'){
+                    }else if(compMove === 'Paper'){
                       result = 'You won !';
+                    }else if(compMove === 'Scissors'){
+                      result = 'Tie.';
                       }
                       if(result === 'You won !'){
                         score.wins += 1;

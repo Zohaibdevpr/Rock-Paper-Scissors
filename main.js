@@ -43,7 +43,7 @@ function playGame(Good)
             const compMove = moveGame();
             let result = '';
                 if(compMove === 'Rock'){
-                  result = 'Tie.';
+                  result = 'Tie. ';
                 }else if(compMove === 'Paper'){
                   result = 'You lost ';
                 }else if(compMove === 'Scissors'){
@@ -53,7 +53,7 @@ function playGame(Good)
                     score.wins += 1;
               }else if (result === 'You lost '){
                     score.losses += 1;
-              }else if(result === 'Tie.'){
+              }else if(result === 'Tie. '){
                     score.ties += 1;
               }
              
@@ -82,7 +82,7 @@ function playGame(Good)
                       score.wins += 1;
                 }else if (result === 'You lost '){
                       score.losses += 1;
-                }else if(result === 'Tie.'){
+                }else if(result === 'Tie. '){
                       score.ties += 1;
                 }
                 updation();
@@ -103,13 +103,13 @@ function playGame(Good)
                     }else if(compMove === 'Paper'){
                       result = 'You won !';
                     }else if(compMove === 'Scissors'){
-                      result = 'Tie.';
+                      result = 'Tie. ';
                       }
                       if(result === 'You won !'){
                         score.wins += 1;
                   }else if (result === 'You lost '){
                         score.losses += 1;
-                  }else if(result === 'Tie.'){
+                  }else if(result === 'Tie. '){
                         score.ties += 1;
                   }
 

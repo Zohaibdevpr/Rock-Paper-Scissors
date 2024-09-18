@@ -7,7 +7,7 @@ I have made this game from scratch  by adding  interactive functionality.
   
 # Screenshot   
 
-<img src=".\src\Gameshot.PNG" width="900px">
+<img src=".\src\Gameshot.PNG" width="900px">  
 
 # Screen recording
 

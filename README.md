@@ -8,7 +8,7 @@ I have made this game from scratch  by adding  interactive functionality.
 # Screenshot   
 
 <img src=".\src\Gameshot.PNG" width="900px">  
-
+   
 # Screen recording
 
 <img src = ".\src\Screen Recording - Sep 5, 2024 (1).gif">
